@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A simple three.js editor widget</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <main>
+      <div class="half-pane">
+        <label>JavaScript</label>
+        <div id="js-editor" class="editor"></div>
+
+        <label>HTML</label>
+        <div id="html-editor" class="editor"></div>
+
+        <label>CSS</label>
+        <div id="css-editor" class="editor"></div>
+      </div>
+      <div class="half-pane">
+        <iframe frameborder="0" id="display"></iframe>
+      </div>
+    </main>
+    <script type="module" src="/js/main.ts"></script>
+  </body>
+</html>
